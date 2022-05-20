@@ -1,0 +1,60 @@
+body {
+
+ font-size: 25px;
+
+background: linear-gradient(to bottom, #0052D4, #65C7F7, #9CECFB);
+
+color: white;
+
+
+font-family: 'Macondo', cursive;
+
+}
+
+#Timer {
+
+ float: right;
+
+}
+
+#show_sketch {
+
+ float: right;
+
+}
+
+#heading {
+
+ margin-left: 107px;
+
+}
+
+#show_sketch {
+
+ border: 2px solid 	#FFD700;
+
+}
+
+canvas {
+
+ border: 5px solid white;
+
+ border-radius: 20px;
+
+ animation-name: example;
+
+ animation-duration: 4s;
+
+ margin-top: 50px;
+
+ animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+
+ from{box-shadow: 1px 1px 38px gray;}
+
+ to{box-shadow: 1px 1px 38px white;}
+
+}
